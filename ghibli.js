@@ -31,4 +31,4 @@ console.log(`${films[randomIndex].image}`);
 
 document.getElementById("title").textContent = `${films[randomIndex].title}`;
 document.getElementById("description").textContent = `${films[randomIndex].description}`;
-document.getElementById("myPicture").src = `${films[randomIndex].image}`;
+document.getElementById("Photo").src = `${films[randomIndex].image}`;
