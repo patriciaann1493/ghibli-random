@@ -2,9 +2,15 @@
 <html>
 <head>
      <title>Ghibli Film Randomizer</title>
-     
+      <script type = "text/JavaScript">
+         <!--
+            function AutoRefresh( t ) {
+               setTimeout("location.reload(true);", t);
+            }
+         //-->
+      </script>
 </head>
-<body>
+<body onload = "JavaScript:AutoRefresh(5000);">
      <h1 id="title"></h1>
      <p id="description"></p>
      <br>
